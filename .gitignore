@@ -1,0 +1,29 @@
+# Ignore large dataset files
+data/
+
+# Ignore generated result files
+result/
+results/
+output/
+outputs/
+
+# Jupyter / Python cache
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+venv/
+.venv/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Heavy generated files
+*.pkl
+*.joblib
+*.zip
+*.rar
+*.7z
